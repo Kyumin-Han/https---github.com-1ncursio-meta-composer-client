@@ -4,6 +4,14 @@ Lightweight virtual web piano. There is only one sample per octave, however samp
 
 Simply copy **_openWebPiano.js_** and **_audio_** folder. See index.html for the example.
 
+Add http-server for local debugging
+
+```bash
+npm install http-server
+# move to workspace directory
+npx http-server
+```
+
 ## API
 
 0. **init(context)** - load all samples and start;
@@ -22,6 +30,7 @@ Simply copy **_openWebPiano.js_** and **_audio_** folder. See index.html for the
   openWebPiano.noteOn(note, velocity);
 </script>
 ```
+
 ## License
 
 [MIT](https://github.com/nishanths/license/blob/master/LICENSE)

@@ -11,8 +11,8 @@ function midiMessageReceived( ev ) {
     openWebPiano.noteOff( noteNumber );
   } else if (cmd == 9) {
     // note on
-    console.log(noteNumber);
     console.log(velocity);
+    console.log(noteNumber);
     openWebPiano.noteOn(noteNumber, velocity);
   } else if (cmd == 11) {
     //controller( noteNumber, velocity);
